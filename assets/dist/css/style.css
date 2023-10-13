@@ -1,0 +1,307 @@
+.header{
+    background-image: url(/assets/img/fondo/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+position: relative;
+
+}
+.img-thumbnail1 {
+    padding: 0.25rem;
+    /* background-color: var(--bs-body-bg); */
+    /* border: var(--bs-border-width) solid var(--bs-border-color); */
+    /* border-radius: var(--bs-border-radius); */
+    max-width: 70%;
+    height: auto;
+
+}
+.elemento-icono{
+  width: 20%;
+}
+.pbb-4{
+    padding-bottom: 15px;
+   
+}
+.logo{
+    width: 255px;
+}
+
+@font-face {
+    font-family: 'lupio-bold';
+    src: url('/assets/fuentes/lupio-bold.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+.fuente{
+    font-family: 'lupio-bold';
+}
+.fuente1{
+  font-family: 'Galano';
+}
+@font-face {
+  font-family: 'Galano';
+  src: url('/assets/fuentes/GalanoGrotesqueBold.otf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+.fuente{
+  font-family: 'lupio-bold';
+}
+
+.grap{
+    padding-top: 125px;
+}
+/*Whatsapp*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:20px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:40px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-bottom:96px;
+}
+
+/* ======= Precios ======= */
+.pricing-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  
+  .pricing-section .section-title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 300;
+  }
+  
+  .pricing-section .intro {
+    color: #8e949e;
+    font-size: 16px;
+    max-width: 760px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  
+  .pricing-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .pricing-wrapper .item {
+    margin-bottom: 30px;
+  }
+  
+  .pricing-wrapper .item-inner {
+    color: #fff;
+    padding: 30px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #40babd;
+    height: 100%;
+  }
+  
+  .pricing-wrapper .item-inner a {
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .pricing-wrapper .item-1 .item-inner {
+    background: #75c181;
+  }
+  
+  .pricing-wrapper .item-2 .item-inner {
+    background: #58bbee;
+  }
+  
+  .pricing-wrapper .item-3 .item-inner {
+    background: #F8A13F;
+  }
+  
+  .pricing-wrapper .item-heading {
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0;
+    min-height: 60px;
+  }
+  
+  .pricing-wrapper .item-heading-desc {
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+    line-height: 3;
+  }
+  
+  .pricing-wrapper .price-figure {
+    font-size: 46px;
+    margin-bottom: 15px;
+  }
+  
+  .pricing-wrapper .price-figure .currency {
+    vertical-align: super;
+    font-size: 26px;
+    -webkit-opacity: 0.6;
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+  }
+  
+  .pricing-wrapper .price-figure .number {
+    font-weight: 500;
+  }
+  
+  .pricing-wrapper a.btn-inverse {
+    color: #fff;
+  }
+  .btn-cta, a.btn-cta {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 30px;
+  }
+
+  .btn-inverse {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid transparent;
+    color: #fff;
+  }
+  
+  .btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active, .btn-inverse.hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: 1px solid transparent;
+  }
+
+  .pricing-wrapper a.btn-inverse {
+    color: #fff;
+  }
+  .cheque{
+    width: 15px;
+  }
+
+.lista {
+  list-style:none
+}
+.Check-orage{
+  width: 20px;
+}
+.pb-7{
+  padding-top: 25px;
+}
+.colorg{
+
+  background-image: url(/assets/img/fondo/fondo.jpg);
+  background-position: center;
+  background-size: cover;
+position: relative;}
+
+
+.pt-7{
+  padding-bottom: 35px;
+}
+.a{
+  text-decoration: none;}
+  .icono-logo{
+    width: 205px;
+  }
+  .imagen-hover {
+    width: 20px; /* Define el ancho del div */
+    height: 20px; /* Define la altura del div */
+    background-image: url('/assets/img/iconos/imagen.png'); /* Imagen de fondo normal */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    transition: background-image 0.3s ease; /* Agrega una transición suave */
+}
+
+.imagen-hover:hover {
+    background-image: url('/assets/img/iconos/imagen2.png'); /* Cambia la imagen de fondo en hover */
+}
+  .text-black1{
+    color:#4a8a2e;
+    font-family: "Galano";
+  }
+  .text-black2{
+    color:#325a6d;
+    font-family: "Galano";
+  }
+  .text-black3{
+    color:#8f620e;
+    font-family: "Galano";
+  }
+  .a-none{
+    text-decoration: none;
+    color: black;border-top-right-radius: 5;
+  }
+
+  .a-none:hover{
+    text-decoration: none;
+    color: white;
+  }
+  .borde{
+    
+    border-bottom-right-radius: 5  }
+    .icono{
+      width: 15px;
+    }
+    .a-none1{
+      color: #fff;
+      text-decoration: none;
+    }
+
+    @media (max-width: 994px) {
+      .fantasma {
+        display: none;
+        background: blue;
+      }
+    }
+
+    .text-w{
+      color:#FFF;
+      text-decoration: none;
+    }
+    
+
+
+    /* Estilos para el botón de subir */
+#subirBtn {
+ /* Ocultar el botón inicialmente */
+  position: fixed;
+  bottom: 20px;
+  left:20px;
+  z-index: 9999px;
+  background-color: #6a6c6ea8;
+  color: #fff;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 8px ;
+  font-size: 16px;
+}
+
+#subirBtn:hover {
+  background-color: #555657a8;
+}
+
+
+@media (max-width: 754px) {
+  .cel {
+    display: none;
+    
+  }
+}
+@media (min-width: 754px) {
+  .compu {
+    display: none;
+    
+  }
+}
