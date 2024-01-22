@@ -1,0 +1,496 @@
+<div class="col">
+                  <div class="card shadow-sm">
+                    <img src="./assets/img/pantallas/IWEYT.png" alt="Conexionweb">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                     <button type="button" class="btn btn-sm btn-outline-secondary"> 
+                       <a class="a-none" href="https://www.iweytextil.com.mx">Ver</a></button>
+               <button type="button" class="btn btn-sm btn-outline-secondary a-none " data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                 Maquetado <span class="imagen-hover">
+                 </span>
+                </button>  
+               </div>
+               <!--caruusel-->
+               <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <h1 class="modal-title fs-5" id="exampleModalLabel text-center">www.iweytextil.com.mx</h1>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <!--carusel auto-->
+                     <div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel">
+                       <div class="carousel-inner">
+                         <div class="carousel-item active">
+                           <img src="./assets/img/pantallas/capturas/iwey1.PNG" class="d-block w-100 img-fluid" alt="Conexionweb">
+                         </div>
+                         <div class="carousel-item">
+                           <img src="./assets/img/pantallas/capturas/iwey2.PNG" class="d-block w-100 img-fluid" alt="Conexionweb">
+                         </div>
+                         <div class="carousel-item">
+                           <img src="./assets/img/pantallas/capturas/iwey3.PNG" class="d-block w-100" alt="Conexionweb">
+                         </div>
+                       </div>
+                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">atras</span>
+                       </button>
+                       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">siguiente</span>
+                       </button>
+                     </div>
+                     <div class="modal-footer">
+                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitar</button>
+                       <button type="button" class="btn btn-primary"><a class="a-none1" href="https://www.iweytextil.com.mx">Entrar</a></button>
+                           </div>
+                           </div>
+                             </div>
+                              </div>
+                            <small class="fantasma text-body-secondary">www.iweytextil.com.mx</small>
+                              </div>
+                               </div>
+                               </div>
+ </div>
+
+ <!--caruusel-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel text-center">www.castellipark.com</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!--carusel auto-->
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/pantallas/capturas/castelli.PNG" class="d-block w-100 img-fluid" alt="diseño de tiendas virtuales">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/pantallas/capturas/castelli1.PNG" class="d-block w-100 img-fluid" alt="diseño Web">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/pantallas/capturas/castelli2.PNG" class="d-block w-100" alt="servicio de páginas web">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">atras</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">siguiente</span>
+        </button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitar</button>
+        <button type="button" class="btn btn-primary"><a class="a-none1" href="https://castellipark.com">Entrar</a></button>
+            </div>
+            </div>
+              </div>
+               </div>
+             <small class="fantasma text-body-secondary">www.castellipark.com</small>
+               </div>
+                </div>
+             </div>
+    </div>
+ 
+ 
+   <!--//////-->
+  <div class="col">
+   <div class="card shadow-sm">
+  <img src="./assets/img/pantallas/cimaquinaria.png" alt="Conexionweb">
+  <div class="card-body">
+   <div class="d-flex justify-content-between align-items-center">
+   <div class="btn-group">
+   <button type="button" class="btn btn-sm btn-outline-secondary"> 
+    <a class="a-none" href="https://cimaquinaria.com">Ver</a></button>
+    <button type="button" class="btn btn-sm btn-outline-secondary a-none " data-bs-toggle="modal" data-bs-target="#exampleModal2">
+    Maquetado <span class="imagen-hover">
+        </span>
+    </button>  
+     </div>
+      <!--caruusel-->
+         <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+       <div class="modal-header">
+     <h1 class="modal-title fs-5" id="exampleModalLabel text-center">www.cimaquinaria.com</h1>
+     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <!--carusel auto-->
+     <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-inner">
+    <div class="carousel-item active">
+       <img src="./assets/img/pantallas/capturas/cimaquinaria.PNG" class="d-block w-100 img-fluid" alt="Conexionweb">
+      </div>
+     <div class="carousel-item">
+    <img src="./assets/img/pantallas/capturas/cimaquinaria1.PNG" class="d-block w-100 img-fluid" alt="Conexionweb">
+     </div>
+     <div class="carousel-item">
+      <img src="./assets/img/pantallas/capturas/cimaquinaria2.PNG" class="d-block w-100" alt="Conexionweb">
+      </div>
+     </div>
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">atras</span>
+     </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">siguiente</span>
+      </button>
+       </div>
+                                   <div class="modal-footer">
+                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitar</button>
+                                     <button type="button" class="btn btn-primary"><a class="a-none1" href="https://cimaquinaria.com">Entrar</a></button>
+                                         </div>
+                                         </div>
+                                           </div>
+                                            </div>
+                                          <small class="fantasma text-body-secondary">www.cimaquinaria.com</small>
+                                            </div>
+                                             </div>
+                                             </div>
+                    </div>
+                      <!--//////-->
+                <div class="col">
+                 <div class="card shadow-sm">
+                  <img src="./assets/img/pantallas/fcconstrucentermap.png" alt="">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                 <div class="btn-group">
+                   <button type="button" class="btn btn-sm btn-outline-secondary"> 
+                     <a class="a-none" href="https://fcconstrucenter.com">Ver</a></button>
+                             <button type="button" class="btn btn-sm btn-outline-secondary a-none " data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                               Maquetado <span class="imagen-hover">
+                               </span>
+                              </button>  
+                             </div>
+                             <!--caruusel-->
+                             <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                               <div class="modal-dialog">
+                                 <div class="modal-content">
+                                   <div class="modal-header">
+                                     <h1 class="modal-title fs-5" id="exampleModalLabel text-center">www.fcconstrucenter.com</h1>
+                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                   </div>
+                                   <!--carusel auto-->
+                                   <div id="carouselExampleAutoplaying3" class="carousel slide" data-bs-ride="carousel">
+                                     <div class="carousel-inner">
+                                       <div class="carousel-item active">
+                                         <img src="./assets/img/pantallas/capturas/fcconstrucenter1.PNG" class="d-block w-100 img-fluid" alt="...">
+                                       </div>
+                                       <div class="carousel-item">
+                                         <img src="./assets/img/pantallas/capturas/fcconstrucenter2.PNG" class="d-block w-100 img-fluid" alt="...">
+                                       </div>
+                                       <div class="carousel-item">
+                                         <img src="./assets/img/pantallas/capturas/fcconstrucenter3.PNG" class="d-block w-100" alt="...">
+                                       </div>
+                                     </div>
+                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="prev">
+                                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                       <span class="visually-hidden">atras</span>
+                                     </button>
+                                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="next">
+                                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                       <span class="visually-hidden">siguiente</span>
+                                     </button>
+                                   </div>
+                                   <div class="modal-footer">
+                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitar</button>
+                                     <button type="button" class="btn btn-primary"><a class="a-none1" href="https://fcconstrucenter.com">Entrar</a></button>
+                                         </div>
+                                         </div>
+                                           </div>
+                                            </div>
+                                          <small class="fantasma text-body-secondary">ww.fcconstrucenter.com</small>
+                                            </div>
+                                             </div>
+                                             </div>
+                    </div>
+                      <!--//////-->
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="./assets/img/pantallas/ACCIONBUR.png" alt="">
+                   <div class="card-body">
+                     <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"> 
+                      <a class="a-none" href="https://accionbursatil.com">Ver</a></button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary a-none " data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                Maquetado <span class="imagen-hover">
+                                </span>
+                               </button>  
+                              </div>
+                              <!--caruusel-->
+                              <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel text-center">www.accionbursatil.com</h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <!--carusel auto-->
+                                    <div id="carouselExampleAutoplaying4" class="carousel slide" data-bs-ride="carousel">
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <img src="./assets/img/pantallas/capturas/accionburs3.PNG" class="d-block w-100 img-fluid" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="./assets/img/pantallas/capturas/accionburs1.PNG" class="d-block w-100 img-fluid" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="./assets/img/pantallas/capturas/accionburs2.PNG" class="d-block w-100" alt="...">
+                                        </div>
+                                      </div>
+                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">atras</span>
+                                      </button>
+                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">siguiente</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitar</button>
+                                      <button type="button" class="btn btn-primary"><a class="a-none1" href="https://accionbursatil.com">Entrar</a></button>
+                                          </div>
+                                          </div>
+                                            </div>
+                                             </div>
+                                           <small class="fantasma text-body-secondary">www.accionbursatil.com</small>
+                                             </div>
+                                              </div>
+                                              </div>
+                     </div>
+                      <!--//////-->
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="./assets/img/pantallas/silvartmx.png" alt="Conexionweb">
+                   <div class="card-body">
+                     <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"> 
+                      <a class="a-none" href="https://silvartmx.netlify.app">Ver</a></button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary a-none " data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                Maquetado <span class="imagen-hover">
+                                </span>
+                               </button>  
+                              </div>
+                              <!--caruusel-->
+                              <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabe" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel text-center">www.silvartmx.netlify.app</h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <!--carusel auto-->
+                                    <div id="carouselExampleAutoplaying5" class="carousel slide" data-bs-ride="carousel">
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <img src="./assets/img/pantallas/capturas/silvartmx.PNG" class="d-block w-100 img-fluid" alt="Conexionweb">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="./assets/img/pantallas/capturas/silvartmx1.PNG" class="d-block w-100 img-fluid" alt="Conexionweb">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="./assets/img/pantallas/capturas/silvartmx2.PNG" class="d-block w-100" alt="Conexionweb">
+                                        </div>
+                                      </div>
+                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying5" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">atras</span>
+                                      </button>
+                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying5" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">siguiente</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitar</button>
+                                      <button type="button" class="btn btn-primary"><a class="a-none1" href="https://silvartmx.netlify.app">Entrar</a></button>
+                                          </div>
+                                          </div>
+                                            </div>
+                                             </div>
+                                           <small class="fantasma text-body-secondary">www.accionbursatil.com</small>
+                                             </div>
+                                              </div>
+                                              </div>
+                     </div>
+                      <!--//////-->
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="./assets/img/pantallas/FIUFI.png" alt="">
+                   <div class="card-body">
+                     <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"> 
+                      <a class="a-none" href="https://fiufiusublimado.com">Ver</a></button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary a-none " data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                                Maquetado <span class="imagen-hover">
+                                </span>
+                               </button>  
+                              </div>
+                              <!--caruusel-->
+                              <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabe" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel text-center">www.fiufiusublimado.com</h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <!--carusel auto-->
+                                    <div id="carouselExampleAutoplaying6" class="carousel slide" data-bs-ride="carousel">
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <img src="./assets/img/pantallas/capturas/fiufiue.PNG" class="d-block w-100 img-fluid" alt="Conexionweb">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="./assets/img/pantallas/capturas/fiufiue2.PNG" class="d-block w-100 img-fluid" alt="Conexionweb">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="./assets/img/pantallas/capturas/fiufiue3.PNG" class="d-block w-100" alt="Conexionweb">
+                                        </div>
+                                      </div>
+                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying6" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">atras</span>
+                                      </button>
+                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying6" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">siguiente</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitar</button>
+                                      <button type="button" class="btn btn-primary"><a class="a-none1" href="https://fiufiusublimado.com">Entrar</a></button>
+                                          </div>
+                                          </div>
+                                            </div>
+                                             </div>
+                                           <small class="fantasma text-body-secondary">www.fiufiusublimado.com</small>
+                                             </div>
+                                              </div>
+                                              </div>
+                     </div>
+                      <!--//////-->
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="./assets/img/pantallas/notabilia.png" alt="">
+                   <div class="card-body">
+                     <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"> 
+                      <a class="a-none" href="https://notabilia.com.mx">Ver</a></button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary a-none " data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                                Maquetado <span class="imagen-hover">
+                                </span>
+                               </button>  
+                              </div>
+                              <!--caruusel-->
+                              <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabe" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel text-center">www.notabilia.com.mx</h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <!--carusel auto-->
+                                    <div id="carouselExampleAutoplaying8" class="carousel slide" data-bs-ride="carousel">
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <img src="./assets/img/pantallas/capturas/notabili11.PNG" class="d-block w-100 img-fluid" alt="Conexionweb">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="./assets/img/pantallas/capturas/notabili13.PNG" class="d-block w-100 img-fluid" alt="Conexionweb">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="./assets/img/pantallas/capturas/notabili12.PNG" class="d-block w-100" alt="Conexionweb">
+                                        </div>
+                                      </div>
+                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying8" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">atras</span>
+                                      </button>
+                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying8" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">siguiente</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitar</button>
+                                      <button type="button" class="btn btn-primary"><a class="a-none1" href="https://notabilia.com.mx">Entrar</a></button>
+                                          </div>
+                                          </div>
+                                            </div>
+                                             </div>
+                                           <small class="fantasma text-body-secondary">www.notabilia.com.mx</small>
+                                             </div>
+                                              </div>
+                                              </div>
+                     </div>
+                       <!--//////-->
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="./assets/img/pantallas/tatto.png" alt="">
+                   <div class="card-body">
+                     <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"> 
+                      <a class="a-none" href="https://nokahlotattoo.netlify.app">Ver</a></button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary a-none " data-bs-toggle="modal" data-bs-target="#exampleModal9">
+                                Maquetado <span class="imagen-hover">
+                                </span>
+                               </button>  
+                              </div>
+                              <!--caruusel-->
+                              <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabe" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel text-center">www.nokahlotattoo.netlify.app</h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <!--carusel auto-->
+                                    <div id="carouselExampleAutoplaying9" class="carousel slide" data-bs-ride="carousel">
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <img src="./assets/img/pantallas/capturas/tatto1.PNG" class="d-block w-100 img-fluid" alt="Conexionweb">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="./assets/img/pantallas/capturas/tatto3.PNG" class="d-block w-100 img-fluid" alt="Conexionweb">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="./assets/img/pantallas/capturas/tatto2.PNG" class="d-block w-100" alt="Conexionweb">
+                                        </div>
+                                      </div>
+                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying9" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">atras</span>
+                                      </button>
+                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying9" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">siguiente</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitar</button>
+                                      <button type="button" class="btn btn-primary"><a class="a-none1" href="https://nokahlotattoo.netlify.app">Entrar</a></button>
+                                          </div>
+                                          </div>
+                                            </div>
+                                             </div>
+                                           <small class="fantasma text-body-secondary">www.nokahlotattoo.netlify.app</small>
+                                             </div>
+                                              </div>
+                                              </div>
+                     </div>
+              </div>
+            </div>
+          </div>
+        </section>
