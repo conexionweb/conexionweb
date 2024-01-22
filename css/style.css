@@ -298,7 +298,7 @@ position: relative;}
 	width:50px;
 	height:50px;
 	bottom:20px;
-	right:22px;
+	right:15px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -309,13 +309,14 @@ position: relative;}
 }
 
 .my-float{
-	margin-bottom:90px;
+	margin-bottom:30px;
 }
 
 .faa-whatsapp{
   color:whites;
   }
   .whats{
-    width: 30px;
-    padding-bottom: 20px;
+    padding-top: 6px;
+    width: 35px;
+    
   }
