@@ -1,0 +1,63 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/*Triada de  colores*/
+.triada_1{
+    color: #1a7ab4;
+}
+.triada_2{
+    color: #e72732
+;
+}
+.triada_3{
+    color: #e72732
+;
+}
+
+/*primary color*/
+.bg-cream {
+    background-color: #FFF2E1;
+}
+
+/*font*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 25%;
+}
+.bg-yellow-500 {
+    background-color: #0dc143;
+}
+.text-yellow-500 {
+    color: #1a7ab4;
+}
+.bg-blue{
+    background: #0866ff;
+    color: #FFF2E1;
+    
+}
+.floating { 
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+} 
+@keyframes floating { 
+    0% { transform: translate(0, 0px); } 
+    50% { transform: translate(0, 8px); } 
+    100% { transform: translate(0, -0px); }  
+} 
+.floating-4 { 
+    animation-name: floating; 
+    animation-duration: 4s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+} 
+@keyframes floating-4 { 
+    0% { transform: translate(0, 0px); } 
+    50% { transform: translate(0, 8px); } 
+    100% { transform: translate(0, -0px); }  
+}
+.text-blue {
+    color: #2F327D;
+}
