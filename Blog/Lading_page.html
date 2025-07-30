@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Conexion web</title>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  
+	<!-- Icono -->
+	 <link rel="icon" href="../img/conexionweb.ico" type="image/x-icon">
+	<!-- Tailwind -->
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<!-- Alpine -->
+	<script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js" defer></script>
+	<!-- AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!-- Custom style -->
+	<link rel="stylesheet" href="../css/skilline.css" />
+	<!-- Whatsapp -->
+	<link rel="stylesheet" href="../css/whatsapp.css">
+	<!-- Carusel -->
+	<link rel="stylesheet" href="../css/carusel.css">
+	<link rel="stylesheet" href="../css/blog.css">
+
+	<!-- Poppins font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+  <style>
+	html {
+	  scroll-behavior: smooth;
+	}
+  </style>
+</head>
+<section class="fondo">
+<body class="antialiaseds ">
+	<!-- navbar -->
+	<div x-data="{ open: false }" class="w-full text-gray-700 ">
+		<div class="flex flex-col max-w-screen-xl px-8 mx-auto md:items-center md:justify-between md:flex-row">
+			<div class="flex flex-row items-center justify-between py-6">
+				<!-- Logo -->
+				<div class="relative md:mt-8">
+				   <img class="h-20" src="../img/logo-negro.png" alt="">
+					<a href="#" class="text-lg relative z-50 font-bold tracking-widest text-gray-900 rounded-lg focus:outline-none focus:shadow-outline">
+					</a>
+				</div>
+				<button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
+					<svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+						<path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+						<path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+					</svg>
+				</button>
+			</div>
+			<nav :class="{ 'transform md:transform-none': !open, 'h-full': open }" class="h-0 md:h-auto flex flex-col flex-grow md:items-center pb-4 md:pb-0 md:flex md:justify-end md:flex-row origin-top duration-300 scale-y-0">
+			<!-- Menu Items -->
+				
+				<a class="text-white px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="../index.html">Inicio</a>
+				<a class="text-white px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#paquetes">Paquete</a>
+					
+				
+			
+			
+				<a class="px-4 py-2 mt-2 text-sm text-center bg-blue text-gray-800 rounded-full md:mt-8 md:ml-4" href="https://www.facebook.com/conexionweeb/"><i class="bi-facebook m-2"></i>Facebook</a>
+			</nav>
+		</div>
+	</div>
+
+	<!-- container -->
+
+
+    <!-- Particle Background -->
+    <div id="particles-js" class="fixed w-full h-full z-[-1]"></div>
+
+
+  
+        <!-- Hero Section -->
+		 
+        <section class="container mx-auto px-4 py-12 md:py-24">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <!-- Left Side: Company Info -->
+                <div class="w-full md:w-1/2 mb-8 md:mb-0" data-aos="fade-up">
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4 text-white">Lading Page </h1>
+                    <h5 class="text-4xl md:text-5xl font-bold text-white mb-4 text-white">$1,500</h5>
+                    <p class="text-xl  mb-6 text-white">Diseño profesional, una landing page que genere tráfico, clientes potenciales y ventas para el lanzamiento de tus productos, promociones y otras necesidades de negocios.</p>
+                  
+                </div>
+
+                <!-- Right Side: Details and Buttons -->
+              
+				    <div class="w-full md:w-4/5 md:pl-12  ">
+            <div class="bg-white bg-opacity-10 backdrop-filter md:backdrop-blur-lg relative  rounded-xl p-8 shadow-2xl" data-aos="fade-left">
+              <h2 class="text-2xl font-semibold mb-6 text-white">¿Necesitas una landing page que convierta?</h2>
+             
+              <ul class="space-y-4">
+                <li class="flex items-center">
+                  <svg
+                    class="w-6 h-6 mr-3 text-yellow-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    ></path>
+                  </svg>
+                  <span class="text-white ">Promocionar un producto o servicio</span>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    class="w-6 h-6 mr-3 text-green-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                    ></path>
+                  </svg>
+                  <span class="text-white">Anunciar eventos o lanzamientos</span>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    class="w-6 h-6 mr-3 text-purple-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
+                    ></path>
+                  </svg>
+                  <span class="text-white">Aumentar tus ventas online</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+            </div>
+        </section>
+
+  
+	<!-- contenido -->
+
+        <!-- Fin container -->
+	<footer class="mt-32 text-black" >
+		<div class="max-w-lg mx-auto">
+			<div class="flex py-12 justify-center text-white items-center px-20 sm:px-36">
+				<div class="relative">
+			
+				<img src="../img/logo-negro.png" alt="Conexion web">
+				</div>
+
+			</div>
+			<h2 class="text-center pb-16 pt-5 text-white">
+			Creación de sitios web a tus necesidades, desde sitios, informativos, Landing Pages, Tiendas en línea.
+			</h2>
+
+			</div>
+			<div class="flex items-center  text-sm justify-center text-white">
+				<a href="#proyectos" class="pr-3">Portafolio</a>
+				<a href="" class="border-l border-gray-400 px-3">Términos de privacidad</a>
+				<a href="" class="border-l border-gray-400 pl-3">Términos & Condiciones</a>
+			</div>
+			<div class="text-center text-white">
+				<p class="my-3 text-gray-400 text-sm">&copy; 2025 Conexion Web. </p>
+			
+			</div>
+		</div>
+	</footer>
+</section>
+
+	<!--Boton de whatsapp-->
+	<div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div"> <a id="WhatsApp-button" href="https://wa.me/+525617219282?text=Me%20gustaría%20saber%20más%20información%20" target="_blank" class="phoneJs" title="Mensaje!">
+  <!-- CIRCULO GRANDE ANIMADO -->
+  <div class="cbh-ph-circle"></div> 
+  <!-- CIRCULO INTERNO ANIMADO -->  
+	<div class="cbh-ph-circle-fill"></div>
+	<div class="cbh-ph-img-circle1"></div>
+  </a></div>
+
+	<!-- AOS init -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+ <script>
+        // Initialize particles.js
+        document.addEventListener('DOMContentLoaded', function() {
+            particlesJS('particles-js', {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.2,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 2,
+                        "direction": "none",
+                        "random": true,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "grab"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 140,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
+
+            // Micro-interactions
+            document.body.addEventListener('click', function(e) {
+                const micro = document.createElement('div');
+                micro.className = 'micro-interaction fixed w-2 h-2 bg-gold-accent rounded-full z-[9999] scale-0 animate-micro-pop';
+                micro.style.left = e.clientX + 'px';
+                micro.style.top = e.clientY + 'px';
+                document.body.appendChild(micro);
+                
+                setTimeout(() => {
+                    micro.remove();
+                }, 500);
+            });
+
+            // Pasta selector interaction
+            const pastaTypes = document.querySelectorAll('.pasta-type');
+            pastaTypes.forEach(type => {
+                type.addEventListener('click', function() {
+                    pastaTypes.forEach(t => t.classList.remove('active', 'bg-gradient-to-br', 'from-secondary-black', 'to-accent-black', 'border-gold-accent'));
+                    this.classList.add('active', 'bg-gradient-to-br', 'from-secondary-black', 'to-accent-black', 'border-gold-accent');
+                    this.querySelector('img').classList.add('brightness-0', 'invert');
+                    this.querySelector('span').classList.add('opacity-100');
+                });
+            });
+        });
+    </script>
+	 <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-black': '#121212',
+                        'secondary-black': '#1e1e1e',
+                        'accent-black': '#2a2a2a',
+                        'pure-white': '#ffffff',
+                        'off-white': '#f5f5f5',
+                        'gold-accent': '#ffd700',
+                        'pasta-orange': '#ff8c42',
+                    },
+                    animation: {
+                        'float': 'float 8s ease-in-out infinite',
+                        'float-pasta': 'float-pasta 15s linear infinite',
+                        'micro-pop': 'micro-pop 0.5s ease-out',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0) rotateX(5deg) rotateY(-5deg)' },
+                            '50%': { transform: 'translateY(-20px) rotateX(3deg) rotateY(3deg)' },
+                        },
+                        'float-pasta': {
+                            '0%': { transform: 'translateY(0) rotate(0deg)' },
+                            '100%': { transform: 'translateY(-100vh) rotate(360deg)' },
+                        },
+                        'micro-pop': {
+                            '0%': { transform: 'scale(0)', opacity: '1' },
+                            '100%': { transform: 'scale(10)', opacity: '0' },
+                        },
+                    },
+                    backdropBlur: {
+                        xs: '2px',
+                        sm: '5px',
+                        md: '12px',
+                    },
+                }
+            }
+        }
+    </script>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</body>
+</html>
