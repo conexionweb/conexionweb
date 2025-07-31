@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="css/skilline.css" />
 	<!-- Whatsapp -->
 	<link rel="stylesheet" href="./css/whatsapp.css">
+
 	<!-- Carusel -->
 	<link rel="stylesheet" href="./css/carusel.css">
 	<link rel="stylesheet" href="./css/blog.css">
@@ -152,7 +153,6 @@
 </section>
 <!--Portafolio-->
 <section id="portafolio">
-
 
 
 </section>
@@ -1052,19 +1052,25 @@
 			</div>
 		</div>
 	</footer>
+	<!-- Botón de desplazamiento -->
+  <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+        class="fixed bottom-4 left-4 bg-blue-700 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700">
+  ↑ 
+</button>
+
 	<!--Boton de whatsapp-->
 	<div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div"> <a id="WhatsApp-button" href="https://wa.me/+525617219282?text=Me%20gustaría%20saber%20más%20información%20" target="_blank" class="phoneJs" title="Mensaje!">
-  <!-- CIRCULO GRANDE ANIMADO -->
-  <div class="cbh-ph-circle"></div> 
-  <!-- CIRCULO INTERNO ANIMADO -->  
+ 	<!-- CIRCULO GRANDE ANIMADO -->
+ 	<div class="cbh-ph-circle"></div> 
+ 	<!-- CIRCULO INTERNO ANIMADO -->  
 	<div class="cbh-ph-circle-fill"></div>
 	<div class="cbh-ph-img-circle1"></div>
-  </a></div>
-
+ 	</a></div>
 	<!-- AOS init -->
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>
-		AOS.init();
+	AOS.init();
 	</script>
+
 </body>
 </html>
