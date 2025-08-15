@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Conexion web</title>
+	<!-- Icono -->
+	 <link rel="icon" href="../img/conexionweb.ico" type="image/x-icon">
+	<!-- Tailwind -->
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<!-- Alpine -->
+	<script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js" defer></script>
+	<!-- AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!-- Custom style -->
+	<link rel="stylesheet" href="../css/skilline.css" />
+	<!-- Whatsapp -->
+	<link rel="stylesheet" href="../css/whatsapp.css">
+	<!-- Carusel -->
+	<link rel="stylesheet" href="../css/carusel.css">
+	<link rel="stylesheet" href="../css/blog.css">
+
+	<!-- Poppins font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+  <style>
+	html {
+	  scroll-behavior: smooth;
+	}
+  </style>
+</head>
+<body class="antialiased">
+	<!-- navbar -->
+	<div x-data="{ open: false }" class="w-full text-gray-700 ">
+		<div class="flex flex-col max-w-screen-xl px-8 mx-auto md:items-center md:justify-between md:flex-row">
+			<div class="flex flex-row items-center justify-between py-6">
+				<!-- Logo -->
+				<div class="relative md:mt-8">
+				   <img class="h-20" src="../img/logo-negro.png" alt="">
+					<a href="#" class="text-lg relative z-50 font-bold tracking-widest text-gray-900 rounded-lg focus:outline-none focus:shadow-outline">
+					</a>
+				</div>
+				<button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
+					<svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+						<path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+						<path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+					</svg>
+				</button>
+			</div>
+			<nav :class="{ 'transform md:transform-none': !open, 'h-full': open }" class="h-0 md:h-auto flex flex-col flex-grow md:items-center pb-4 md:pb-0 md:flex md:justify-end md:flex-row origin-top duration-300 scale-y-0">
+			<!-- Menu Items -->
+				
+				<a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="../index.html">Inicio</a>
+				<a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#paquetes">Paquete</a>
+					
+				
+			
+			
+				<a class="px-4 py-2 mt-2 text-sm text-center bg-blue text-gray-800 rounded-full md:mt-8 md:ml-4" href="https://www.facebook.com/conexionweeb/"><i class="bi-facebook m-2"></i>Facebook</a>
+			</nav>
+		</div>
+	</div>
+
+	<!-- container -->
+ <!-- Particle Background -->
+    <div id="particles-js" class="fixed w-full h-full z-[-1]"></div>
+
+   
+        <!-- Fin container -->
+<footer class="mt-32" style="background-color: rgb(255, 255, 255);">
+		<div class="max-w-lg mx-auto">
+			<div class="flex py-12 justify-center text-white items-center px-20 sm:px-36">
+				<div class="relative">
+			
+				<img src="../img/logo-negro.png" alt="Conexion web">
+				</div>
+
+			</div>
+			<h2 class="text-center pb-16 pt-5">
+			Creación de sitios web a tus necesidades, desde sitios, informativos, Landing Pages, Tiendas en línea.
+			</h2>
+
+			</div>
+			<div class="flex items-center  text-sm justify-center">
+				<a href="#proyectos" class="pr-3">Portafolio</a>
+				<a href="" class="border-l border-gray-400 px-3">Términos de privacidad</a>
+				<a href="" class="border-l border-gray-400 pl-3">Términos & Condiciones</a>
+			</div>
+			<div class="text-center text-white">
+				<p class="my-3 text-gray-400 text-sm">&copy; 2025 Conexion Web. </p>
+				<div class="py-3 tracking-wide">
+					<p>Code By <span class="font-semibold">mhaecal</span></p>
+					<p>UI/UX By <span class="font-semibold">Irvan Moses</span></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--Boton de whatsapp-->
+	<div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div"> <a id="WhatsApp-button" href="https://wa.me/+525617219282?text=Me%20gustaría%20saber%20más%20información%20" target="_blank" class="phoneJs" title="Mensaje!">
+  <!-- CIRCULO GRANDE ANIMADO -->
+  <div class="cbh-ph-circle"></div> 
+  <!-- CIRCULO INTERNO ANIMADO -->  
+	<div class="cbh-ph-circle-fill"></div>
+	<div class="cbh-ph-img-circle1"></div>
+  </a></div>
+
+	<!-- AOS init -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+    <!-- Particles.js -->
+    <script src="../js/particulas.js"></script>
+</body>
+</html>
