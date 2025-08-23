@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Conexión web</title>
+	  <!-- Metaetiquetas para redes sociales -->
+    <meta
+      property="og:title"
+      content="Generación de Imágenes con IA con ImageFX  "/>
+    <meta
+      property="og:description"
+      content="La Revolución Creativa de Google en Generación de Imágenes con IA"/>
+    <meta
+      property="og:image"
+      content="https://conexionweb.netlify.app/img/blog/ImageFX.jpg"/>
+	<!-- Icono -->
+	 <link rel="icon" href="../img/conexionweb.ico" type="image/x-icon">
+	 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+	<!-- Tailwind -->
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<!-- Alpine -->
+	<script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js" defer></script>
+	<!-- AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!-- Custom style -->
+	<link rel="stylesheet" href="../css/skilline.css" />
+	<!-- Whatsapp -->
+	<link rel="stylesheet" href="../css/whatsapp.css">
+	<!-- Carusel -->
+	<link rel="stylesheet" href="../css/carusel.css">
+	<link rel="stylesheet" href="../css/blog.css">
+
+	<!-- Poppins font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+  <style>
+	html {
+	  scroll-behavior: smooth;
+	}
+    @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lexend', sans-serif;
+}
+body {
+	background: #111 !important;
+}
+section,
+.content {
+	width: 100%;
+	height: 100svh;
+	overflow: hidden;
+}
+.images {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+		z-index: var(--index);
+		will-change: mask-image, -webkit-mask-image;
+	}
+}
+.images img {
+	mask-image: none;
+	-webkit-mask-image: none;
+}
+.content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	z-index: 10;
+	color: #fff;
+	font-size: 20px;
+}
+.content .top,
+.content .bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.content .center {
+	width: 100%;
+	max-width: clamp(300px, 80vw, 1000px);
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+}
+.content .center .title-center {
+	text-align: center;
+	font-size: clamp(30px, 8vw, 100px);
+}
+.content .center .title-bottom {
+	text-align: right;
+}
+.last-section {
+	width: 100%;
+	height: 100svh;
+	background: #111;
+	color: #fff;
+	font-size: clamp(30px, 8vw, 100px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+  </style>
+</head>
+<body class="antialiased" style="background:#111;">
+<header class="relative w-full min-h-[60vh] flex flex-col items-center justify-center overflow-hidden bg-transparent">
+	<!-- Efecto Matrix con canvas -->
+	<canvas id="ia-matrix-bg" class="absolute inset-0 w-full h-full pointer-events-none"></canvas>
+	<!-- Logo en la esquina superior izquierda -->
+	<div class="absolute top-4 left-4 sm:top-6 sm:left-8 z-20">
+		<img class="h-12 sm:h-16" src="../img/logo-blanco.png" alt="conexionweb">
+	</div>
+	<!-- Menú en la esquina superior derecha -->
+	<nav class="absolute top-4 right-4 sm:top-6 sm:right-8 z-20 flex flex-col sm:flex-row gap-3 sm:gap-6 items-center bg-transparent">
+		
+	</nav>
+	<div class="relative z-10 w-full">
+		<!-- Hero principal -->
+		<div class="text-center py-16 sm:py-24 px-4">
+			<h1 class="text-3xl sm:text-5xl font-extrabold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 drop-shadow-lg animate__animated animate__fadeInDown text-white">
+				Generación de Imágenes con IA con ImageFX 
+			</h1>
+			<p class="text-white mt-6 text-base sm:text-xl text-white/80 max-w-xl mx-auto animate__animated animate__fadeInUp">
+				El futuro creativo está aquí: genera imágenes, arte y contenido visual con IA y efectos espectaculares.
+			</p>
+		</div>
+	</div>
+</header>
+
+<script>
+  // Efecto Matrix en canvas para fondo transparente
+  document.addEventListener('DOMContentLoaded', function() {
+    const canvas = document.getElementById('ia-matrix-bg');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = Math.max(window.innerHeight * 0.6, 400);
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    // Caracteres para el efecto Matrix
+    const letters = '01AI人工智能ネオンIAΞΣΦΨΩ'.split('');
+    const fontSize = 22;
+    let columns = Math.floor(canvas.width / fontSize);
+    let drops = Array(columns).fill(1);
+
+    function drawMatrix() {
+      ctx.fillStyle = 'rgba(0,0,0,0.15)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.font = fontSize + "px monospace";
+      for (let i = 0; i < drops.length; i++) {
+        const text = letters[Math.floor(Math.random() * letters.length)];
+        ctx.fillStyle = `hsl(${220 + i*10},100%,60%)`;
+        ctx.shadowColor = "#00fff7";
+        ctx.shadowBlur = 12;
+        ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+        ctx.shadowBlur = 0;
+        if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+          drops[i] = 0;
+        }
+        drops[i]++;
+      }
+      requestAnimationFrame(drawMatrix);
+    }
+    // Actualiza columnas y drops al redimensionar
+    window.addEventListener('resize', () => {
+      columns = Math.floor(canvas.width / fontSize);
+      drops = Array(columns).fill(1);
+    });
+    drawMatrix();
+  });
+</script>
+
+<main>
+	<section class="hero" style="background:#111;">
+		<div class="images">
+			<img src="../img/Blog/ImageFX.jpg" alt="image" class="w-full h-full object-cover">
+		</div>
+		<div class="content text-xs sm:text-base px-2 sm:px-0">
+			<div class="top flex-col sm:flex-row flex justify-between items-center px-2 sm:px-5">
+				<div class="top-left mb-2 sm:mb-0">
+					<p>Conexión web</p>
+					<p>Digital Agency</p>
+				</div>
+				<div class="top-right flex flex-col items-end">
+					<p>Blog</p>
+					<img src="../img/logo-blanco.png" class="w-24 sm:w-[145px]" alt="Portfolio">
+				</div>
+			</div>
+			<div class="center gap-8 sm:gap-20 px-2 sm:px-0">
+				<div class="top-title">
+					<p>We Create</p>
+				</div>
+				<div>
+					<h1 class="text-lg sm:text-3xl font-bold">Generación de Imágenes con IA: Explorando el Poder de ImageFX</h1>
+				</div>
+				<div class="title-bottom text-right">
+					<p>That Matter</p>
+				</div>
+			</div>
+			<div class="bottom flex-col sm:flex-row flex justify-between items-center px-2 sm:px-5">
+				<div class="top-left mb-2 sm:mb-0">
+					<p>Web Design</p>
+					<p>Brand Identity</p>
+				</div>
+				<div class="top-right flex flex-col items-end">
+					<p>UI/UX Design</p>
+					<p>Development</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="last-section flex items-center justify-center min-h-[60vh] sm:min-h-[100vh] bg-gradient-to-br from-[#111] to-[#1a1a2e] px-2">
+		<div class="last-section-content w-full max-w-2xl mx-auto text-center px-4 sm:px-6 py-10 sm:py-16 rounded-3xl shadow-2xl bg-black/80 border border-cyan-700/30">
+			<h2 class="text-2xl sm:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 mb-8 sm:mb-10 tracking-wide">
+				Ventajas de usar ImageFX
+			</h2>
+			<ul class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
+				<li class="rounded-xl bg-gradient-to-br from-cyan-900 via-purple-900 to-pink-900 p-6 sm:p-8 shadow-lg flex flex-col items-center">
+					<span class="text-4xl sm:text-5xl mb-4">🎨</span>
+					<h3 class="text-base sm:text-xl font-bold text-cyan-300 mb-2">Creatividad sin límites</h3>
+					<p class="text-white/80 text-sm sm:text-base">Ideal para artistas, diseñadores y creadores de contenido.</p>
+				</li>
+				<li class="rounded-xl bg-gradient-to-br from-pink-900 via-purple-900 to-cyan-900 p-6 sm:p-8 shadow-lg flex flex-col items-center">
+					<span class="text-4xl sm:text-5xl mb-4">⚡</span>
+					<h3 class="text-base sm:text-xl font-bold text-pink-300 mb-2">Velocidad</h3>
+					<p class="text-white/80 text-sm sm:text-base">Imágenes generadas en segundos.</p>
+				</li>
+				<li class="rounded-xl bg-gradient-to-br from-purple-900 via-cyan-900 to-pink-900 p-6 sm:p-8 shadow-lg flex flex-col items-center">
+					<span class="text-4xl sm:text-5xl mb-4">🧩</span>
+					<h3 class="text-base sm:text-xl font-bold text-purple-300 mb-2">Edición asistida</h3>
+					<p class="text-white/80 text-sm sm:text-base">Las sugerencias contextuales ayudan a refinar resultados fácilmente.</p>
+				</li>
+				<li class="rounded-xl bg-gradient-to-br from-cyan-900 via-pink-900 to-purple-900 p-6 sm:p-8 shadow-lg flex flex-col items-center">
+					<span class="text-4xl sm:text-5xl mb-4">🖼️</span>
+					<h3 class="text-base sm:text-xl font-bold text-cyan-300 mb-2">Calidad superior</h3>
+					<p class="text-white/80 text-sm sm:text-base">Genera imágenes con un alto nivel de detalle y coherencia visual.</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+</main>
+
+<footer class="bg-gradient-to-r from-cyan-700 via-purple-700 to-pink-700 text-white">
+	<div class="max-w-lg mx-auto">
+		<div class="flex py-8 sm:py-12 justify-center items-center px-8 sm:px-20 sm:px-36">
+			<div class="relative">
+				<img src="../img/logo-blanco.png" alt="Conexion web" class="h-10 sm:h-12">
+			</div>
+		</div>
+		<h2 class="text-center pb-8 sm:pb-16 pt-3 sm:pt-5 text-white text-base sm:text-xl">
+			Creación de sitios web a tus necesidades, desde sitios, informativos, Landing Pages, Tiendas en línea.
+		</h2>
+	</div>
+	<div class="flex flex-col sm:flex-row items-center text-xs sm:text-sm justify-center text-white gap-2 sm:gap-0">
+		<a href="#proyectos" class="pr-3 hover:text-cyan-300">Portafolio</a>
+		<a href="" class="border-l border-gray-400 px-3 hover:text-pink-300">Términos de privacidad</a>
+		<a href="" class="border-l border-gray-400 pl-3 hover:text-purple-300">Términos & Condiciones</a>
+	</div>
+	<div class="text-center">
+		<p class="my-3 text-gray-200 text-xs sm:text-sm">&copy; 2025 Conexion Web. </p>
+	</div>
+</footer>
+	<!--Boton de whatsapp-->
+	<div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div"> <a id="WhatsApp-button" href="https://wa.me/+525617219282?text=Me%20gustaría%20saber%20más%20información%20" target="_blank" class="phoneJs" title="Mensaje!">
+  <!-- CIRCULO GRANDE ANIMADO -->
+  <div class="cbh-ph-circle"></div> 
+  <!-- CIRCULO INTERNO ANIMADO -->  
+	<div class="cbh-ph-circle-fill"></div>
+	<div class="cbh-ph-img-circle1"></div>
+  </a></div>
+
+	<!-- AOS init -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>
